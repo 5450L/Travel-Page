@@ -1,0 +1,57 @@
+body {
+  font-family: "QuickSand", sans-serif;
+  margin: 0;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#page-logo a {
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
+  color: rgb(245, 243, 160);
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+#page-logo a:hover{
+  color:yellow;
+  text-shadow: 2px 2px 3px black;
+}
+
+header ul {
+  display: flex;
+}
+header li {
+  margin-left: 20px;
+}
+header li a{
+  text-decoration: none;
+  color: rgb(245, 243, 160);
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 6px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) ;
+
+}
+header li a:hover{
+  background-color: rgb(245, 243, 160);
+  color: black;
+
+}
