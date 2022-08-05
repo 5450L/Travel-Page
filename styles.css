@@ -39,20 +39,62 @@
 #hero-content a:hover {
   background-color: rgb(205, 205, 4);
 }
-
 #highlights {
-  background-color: aqua;
+  padding: 24px;
+  background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+#highlights h2 {
   text-align: center;
-  padding-top: 20px;
+  text-transform: uppercase;
+  color: rgb(59, 65, 64);
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 10px;
 }
-ul {
-  display: flex;
-}
+
 #destinations {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.destination {
+  margin: 0 20px;
+  text-align: center;
 }
 
 .destination img {
   height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.destination p {
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-size: 18px;
+}
+.destination strong {
+  color: rgb(0, 67, 57);
+}
+
+footer {
+  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+  padding: 28px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer li {
+  height: 80px;
+  width: 80px;
+  margin: 0 50px;
+}
+footer img {
+  height: 100%;
+  width: 100%;
 }
